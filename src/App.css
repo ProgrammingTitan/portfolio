@@ -2,31 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.HomeButton{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace; 
+  color: white;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Body { 
+  height: 4000px; 
+  background: #544a7d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.Introduction {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Intro-Box{
+  margin-top: 20px; 
+  background: rgba(255,255,255,0.1);
+
+}
+
+.Intro-Box p{
+  opacity: 1;
+  font-weight: bold; 
+}
+
+.Cal{
+  height: 1000px;
 }
